@@ -1,7 +1,7 @@
 # java-teaching
 This is a project in which I put all applications I have developed for my students.
 
-#Java Essentials
+# Java Essentials
 * [What is a NullPointerException and how do I fix it?](https://stackoverflow.com/q/218384/4723795)
 * [What is a NumberFormatException and how do I fix it?](https://stackoverflow.com/q/39849984/4723795)
 * [What is a debugger and how can it help me diagnose problems?](https://stackoverflow.com/q/25385173/4723795)
