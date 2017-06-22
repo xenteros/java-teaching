@@ -12,6 +12,7 @@ public class LeapYearService {
         if (year % 100 == 0) {
             return false;
         }
+        //This could have been simplified into return year%4 == 0 - decided to leave it as it is, to keep the code clean
         if (year % 4 == 0) {
             return true;
         }
