@@ -1,7 +1,8 @@
 package calculator;
 
 import calculator.service.Calculator;
-import util.Operator;
+import calculator.util.Operator;
+
 import java.util.Scanner;
 
 public class Main {

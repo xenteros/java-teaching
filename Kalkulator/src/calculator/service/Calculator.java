@@ -1,8 +1,6 @@
 package calculator.service;
 
-import util.Operator;
-
-import java.math.BigInteger;
+import calculator.util.Operator;
 
 /**
  * Created by agurgul on 20.06.2017.
