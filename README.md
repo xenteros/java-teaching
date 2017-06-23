@@ -11,7 +11,7 @@ This is a project in which I put all applications I have developed for my studen
 * [Java Streams Introduction by Baeldung](http://www.baeldung.com/java-8-streams-introduction)
 * [Java 8 Streams by Dzone](https://dzone.com/articles/an-introduction-to-functional-programming-in-java)
 * [Is Java “pass-by-reference” or “pass-by-value”?](https://stackoverflow.com/q/40480/4723795)
-
+* [How do the post increment (i++) and pre increment (++i) operators work in Java?](https://stackoverflow.com/questions/2371118/how-do-the-post-increment-i-and-pre-increment-i-operators-work-in-java)
 
 Kahoot results:
 
