@@ -32,6 +32,15 @@ public class MyList {
         }
     }
 
+    public void remove(String string) {
+        if (!value.equals(string)) {
+            nextElement.remove(string);
+        } else {
+            this.value = nextElement.value;
+            this.nextElement = this.nextElement.getNextElement();
+        }
+    }
+
 
     public void print() {
         System.out.println(value);

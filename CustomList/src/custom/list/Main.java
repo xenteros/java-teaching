@@ -14,5 +14,8 @@ public class Main {
         System.out.println();
         presidentsOfTheUSA.add("Ronald Regan", 1);
         presidentsOfTheUSA.print();
+        System.out.println();
+        presidentsOfTheUSA.remove("Barack Obama");
+        presidentsOfTheUSA.print();
     }
 }
