@@ -41,6 +41,13 @@ public class MyList {
         }
     }
 
+    public static String get(MyList list, int i) {
+        for (int j = 0; j < i; j++) {
+            list = list.getNextElement();
+        }
+        return list.getValue();
+    }
+
 
     public void print() {
         System.out.println(value);
