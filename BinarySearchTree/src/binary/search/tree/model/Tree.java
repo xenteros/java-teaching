@@ -27,5 +27,8 @@ public class Tree<T extends Comparable> {
     public T get(T value){
         return root.get(value).orElse(null);
     }
+    public void remove(T node){
+        root.remove(node, null);
+    }
 
 }

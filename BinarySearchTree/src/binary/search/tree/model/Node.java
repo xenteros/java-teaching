@@ -69,10 +69,7 @@ public class Node<T extends Comparable> {
 
     public void remove(T node, Node<T> parent) {
         if (value.equals(node)) {
-            //TODO
-
-            //I'm a leaf
-            if (this.left == null && this.right == null) {
+            if (isLeaf()) {
                 if (parent != null && parent.left.equals(this)) {
                     parent.left = null;
                 } else
@@ -97,11 +94,21 @@ public class Node<T extends Comparable> {
                 return;
             }
             //have two children http://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
-            //TODO - Make sure that root deletion works
+            Node<T> tmp = right;
+            Node<T> tmpParent = this;
+            while (tmp.left != null) {
+                tmpParent = tmp;
+                tmp = tmp.left;
+            }
+            value = tmp.value;
+            if (tmp.equals(tmpParent.left)) {
+                tmpParent.left = tmp;
+            } else {
+                tmpParent.right = tmp;
+            }
+
 
             return;
-
-            //
         }
         if (value.compareTo(node) > 0) {
             if (left == null) {
@@ -115,5 +122,9 @@ public class Node<T extends Comparable> {
         }
         right.remove(node, this);
 
+    }
+
+    private boolean isLeaf() {
+        return left == null && right == null;
     }
 }

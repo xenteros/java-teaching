@@ -18,13 +18,20 @@ public class Main {
         tree.add(1);
         tree.add(7);
         tree.add(9);
+        tree.add(11);
+        tree.add(10);
+        tree.add(12);
 
         tree.printInOrder();
         System.out.println();
-        tree.printPreOrder();
+//        tree.printPreOrder();
         System.out.println();
-        System.out.println(tree.get(5));
-        System.out.println(tree.get(12));
+//        System.out.println(tree.get(5));
+//        System.out.println(tree.get(12));
+        tree.remove(11);
+//        tree.remove(9);
+        System.out.println();
+        tree.printInOrder();
 
 
     }
