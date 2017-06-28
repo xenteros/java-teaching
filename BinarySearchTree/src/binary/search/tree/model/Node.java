@@ -89,10 +89,10 @@ public class Node<T extends Comparable> {
                 return;
             }
             if (right == null) {
-                if (parent!= null && parent.right.equals(this)){
-                    parent.right =left;
-                } else {
+                if (parent != null && parent.right.equals(this)) {
                     parent.right = left;
+                } else {
+                    parent.left = left;
                 }
                 return;
             }
