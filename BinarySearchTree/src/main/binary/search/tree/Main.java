@@ -1,5 +1,6 @@
 package binary.search.tree;
 
+import binary.search.tree.model.Tree;
 import binary.search.tree.service.WordCountingService;
 
 import java.io.File;
@@ -35,29 +36,29 @@ public class Main {
             System.out.println(w.toString());
         });
 
-//        Tree <Integer> tree = new Tree<>();
-//        tree.add(6);
-//        tree.add(4);
-//        tree.add(8);
-//        tree.add(2);
-//        tree.add(5);
-//        tree.add(1);
-//        tree.add(7);
-//        tree.add(9);
-//        tree.add(11);
-//        tree.add(10);
-//        tree.add(12);
+        Tree <Integer> tree = new Tree<>();
+        tree.add(6);
+        tree.add(4);
+        tree.add(8);
+        tree.add(2);
+        tree.add(5);
+        tree.add(1);
+        tree.add(7);
+        tree.add(9);
+        tree.add(11);
+        tree.add(10);
+        tree.add(12);
 //
-//        tree.printInOrder();
-//        System.out.println();
+        tree.printInOrder();
+        System.out.println();
 ////        tree.printPreOrder();
 //        System.out.println();
 ////        System.out.println(tree.get(5));
 ////        System.out.println(tree.get(12));
-//        //tree.remove(11);
+        tree.remove(11);
 ////        tree.remove(9);
 //        System.out.println();
-//        tree.printInOrder();
+        tree.printInOrder();
 //
 //        System.out.println(Arrays.toString(tree.sorted().toArray()));
 

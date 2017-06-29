@@ -101,13 +101,14 @@ public class Node<T extends Comparable> {
                 tmpParent = tmp;
                 tmp = tmp.left;
             }
-            value = tmp.value;
-            if (tmp.equals(tmpParent.left)) {
-                tmpParent.left = tmp;
-            } else {
-                tmpParent.right = tmp;
-            }
 
+            if (tmp.equals(right)) {
+                value = right.value;
+                right = right.right;
+            } else {
+                tmpParent.left = tmp.right;
+                value = tmp.value;
+            }
 
             return;
         }
@@ -125,12 +126,12 @@ public class Node<T extends Comparable> {
 
     }
 
-    public List<T> sorted(List<T> list){
-        if(left!=null){
+    public List<T> sorted(List<T> list) {
+        if (left != null) {
             left.sorted(list);
         }
         list.add(value);
-        if(right!=null){
+        if (right != null) {
             right.sorted(list);
         }
         return list;
