@@ -12,24 +12,27 @@ public class Calculator {
         if (operator == null) {
             throw new IllegalArgumentException("Unknown operator");
         }
-        if (operator.equals(Operator.ADD)) {
-            return add(first, second);
+
+        switch (operator) {
+            case ADD:
+                return add(first, second);
+
+            case DIFF:
+                return diff(first, second);
+
+            case MULTIPLY:
+                return multiply(first, second);
+
+            case DIVIDE:
+                return divide(first, second);
+
+            case MODULO:
+                return modulo(first, second);
+
+            case POW:
+                return pow(first, second);
         }
-        if (operator.equals(Operator.DIFF)) {
-            return diff(first, second);
-        }
-        if (operator.equals(Operator.MULTIPLY)) {
-            return multiply(first, second);
-        }
-        if (operator.equals(Operator.DIVIDE)) {
-            return divide(first, second);
-        }
-        if (operator.equals(Operator.MODULO)) {
-            return modulo(first, second);
-        }
-        if (operator.equals(Operator.POW)) {
-            return pow(first, second);
-        }
+
         throw new UnsupportedOperationException(operator.toString());
     }
 
