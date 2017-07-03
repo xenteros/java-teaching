@@ -17,4 +17,8 @@ public enum FieldState {
     public String toString() {
         return v;
     }
+
+    public static boolean empty(FieldState fieldState) {
+        return EMPTY.equals(fieldState);
+    }
 }
