@@ -1,5 +1,11 @@
 # java-teaching
-This is a project in which I put all applications I have developed for my students.
+This is a project in which I put all applications I have developed for my students. I also attach some notes.
+
+This repository should be treated as the collection of knowledge and notes rather than an example on how to work with git.
+
+Git Flow will be introduced later during the training.
+
+This file contains urls to articles I find useful for beginners. They cover different topics that Junior Java Developer should be familiar with.
 
 # Java Essentials
 * [What is a NullPointerException and how do I fix it?](https://stackoverflow.com/q/218384/4723795)
