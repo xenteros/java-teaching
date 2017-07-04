@@ -36,3 +36,6 @@ Kahoot results:
 
 1. Maciej D, Marta G, Bartosz Ch.
 2. Wacław T, Bartosz Ch, Sebastian S.
+
+CodingBut results:
+1. Anna T, Marta G, Daniel Mie. + Wacław T.
