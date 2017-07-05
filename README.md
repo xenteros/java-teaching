@@ -30,6 +30,10 @@ This file contains urls to articles I find useful for beginners. They cover diff
 * [Access modifiers explained](https://stackoverflow.com/q/215497/4723795)
 * [A Strategy for Defining Immutable Objects](https://docs.oracle.com/javase/tutorial/essential/concurrency/imstrat.html)
 * [String formatter - maybe not the most important knowledge here](https://docs.oracle.com/javase/7/docs/api/java/util/Formatter.html#syntax)
+* [20 things 20-yrs old don't get](https://www.forbes.com/sites/jasonnazar/2013/07/23/20-things-20-year-olds-dont-get/#23577afe726d)
+* [Quarz tutorial](https://www.mkyong.com/java/quartz-2-scheduler-tutorial/)
+* [Quarz tutorials](https://www.mkyong.com/tutorials/quartz-scheduler-tutorial/)
+* [Lombok project](https://projectlombok.org/)
 
 
 Kahoot results:
