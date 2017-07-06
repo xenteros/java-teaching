@@ -24,7 +24,7 @@ public class Main {
 
         List<String> wordsLongerThan3 = rows.stream()
                 .map(row -> row.split(" "))
-                .flatMap(words -> Arrays.stream(words))
+                .flatMap(words -> Arrays.stream(words)) //could be replaced with Arrays::stream - method reference
                 .filter(word -> word.length() > 3)
                 .collect(toList());
         System.out.println(Arrays.toString(wordsLongerThan3.toArray()));

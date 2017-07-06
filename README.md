@@ -34,12 +34,13 @@ This file contains urls to articles I find useful for beginners. They cover diff
 * [Quarz tutorial](https://www.mkyong.com/java/quartz-2-scheduler-tutorial/)
 * [Quarz tutorials](https://www.mkyong.com/tutorials/quartz-scheduler-tutorial/)
 * [Lombok project](https://projectlombok.org/)
-
+* [Design patterns](https://en.wikipedia.org/wiki/Design_Patterns)
 
 Kahoot results:
 
 1. Maciej D, Marta G, Bartosz Ch.
 2. Wacław T, Bartosz Ch, Sebastian S.
+3. Marta G, Sebastian S, Daniel G.
 
 CodingBut results:
 1. Anna T, Marta G, Daniel Mie. + Wacław T.
