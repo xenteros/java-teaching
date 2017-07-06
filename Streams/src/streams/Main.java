@@ -24,7 +24,7 @@ public class Main {
 
         List<String> wordsLongerThan3 = rows.stream()
                 .map(row -> row.split(" "))
-                .flatMap(words -> Arrays.stream(words)) //could be replaced with Arrays::stream - method reference
+                .flatMap(words -> Arrays.stream(words)) //could be replaced with Arrays::stream - method reference - included below
                 .filter(word -> word.length() > 3)
                 .collect(toList());
         System.out.println(Arrays.toString(wordsLongerThan3.toArray()));
@@ -43,7 +43,7 @@ public class Main {
                 .mapToInt(w -> w.length())
                 .sum();
         double letterAvgLen = wordsLongerThan3.stream()
-                .mapToDouble(w -> w.length())
+                .mapToDouble(String::length)    //method reference - stands for s -> s.length()
                 .average().orElse(0);
 
         System.out.println(letterAvgLen);
