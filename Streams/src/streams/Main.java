@@ -6,7 +6,11 @@ package streams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static java.util.stream.Collectors.toList;
 
@@ -47,6 +51,39 @@ public class Main {
                 .average().orElse(0);
 
         System.out.println(letterAvgLen);
+
+        List<Date> dates = new ArrayList<>();
+
+        dates.sort((o1, o2) -> {
+            Date now = new Date();
+            Long nowStamp = now.getTime();
+            return Long.compare(Math.abs(o1.getTime() - nowStamp), Math.abs(o2.getTime() - nowStamp));
+        });
+        Comparator<List<Integer>> listComparator = new Comparator<List<Integer>>() {
+            @Override
+            public int compare(List<Integer> o1, List<Integer> o2) {
+                for (int i = 0; i < o1.size() && i < o2.size(); i++) {
+                    if (!o1.get(i).equals(o2.get(i))){
+                        return o1.get(i).compareTo(o2.get(i));
+                    }
+                }
+                return Integer.valueOf(o1.size()).compareTo(o2.size());
+            }
+        };
+
+        Map<String, List<Integer>> map = new HashMap<>();
+        List<String> sorted = map.entrySet().stream()
+            .sorted((o1, o2) -> listComparator.compare(o1.getValue(), o2.getValue()))
+            .map(Map.Entry::getKey)
+            .collect(toList());
+
+        System.out.println("Git flow example");
+
     }
+
+
+
+
+
 
 }
