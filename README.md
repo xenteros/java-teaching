@@ -35,6 +35,8 @@ This file contains urls to articles I find useful for beginners. They cover diff
 * [Quarz tutorials](https://www.mkyong.com/tutorials/quartz-scheduler-tutorial/)
 * [Lombok project](https://projectlombok.org/)
 * [Design patterns](https://en.wikipedia.org/wiki/Design_Patterns)
+* [Protokół HTTP, Kobiety do kodu](http://kobietydokodu.pl/niezbednik-juniora-protokol-http/)
+* [HttpUrlConnection GET, POST](https://www.mkyong.com/java/how-to-send-http-request-getpost-in-java/)
 
 Kahoot results:
 
