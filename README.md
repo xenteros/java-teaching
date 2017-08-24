@@ -41,6 +41,7 @@ Kahoot results:
 1. Maciej D, Marta G, Bartosz Ch.
 2. Wacław T, Bartosz Ch, Sebastian S.
 3. Marta G, Sebastian S, Daniel G.
+4. Marta G, Mateusz K, Bartosz Ch.
 
 CodingBut results:
 1. Anna T, Marta G, Daniel Mie. + Wacław T.
