@@ -37,6 +37,11 @@ This file contains urls to articles I find useful for beginners. They cover diff
 * [Design patterns](https://en.wikipedia.org/wiki/Design_Patterns)
 * [Protokół HTTP, Kobiety do kodu](http://kobietydokodu.pl/niezbednik-juniora-protokol-http/)
 * [HttpUrlConnection GET, POST](https://www.mkyong.com/java/how-to-send-http-request-getpost-in-java/)
+* [Query methods](https://docs.spring.io/spring-data/jpa/docs/1.4.3.RELEASE/reference/html/jpa.repositories.html)
+* [ManyToMany example](https://www.mkyong.com/hibernate/hibernate-many-to-many-relationship-example-annotation/)
+* [Spring Core](https://howtotrainyourjava.com/2017/02/23/spring-core-basics/)
+* [Spring Web](https://howtotrainyourjava.com/2017/03/09/spring-web-basics/)
+* [Spring Data JPA Basics](https://howtotrainyourjava.com/2017/03/16/spring-data-jpa-basics/)
 
 Kahoot results:
 
